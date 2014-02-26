@@ -12,7 +12,6 @@ using VersionOne.CommitService.Types;
 
 namespace VersionOne.CommitService.Plugin.Translator.Tfs
 {
-	[Export(typeof(ITranslateInboundMessageToCommits))]
 	public class TfsTranslator : ITranslateInboundMessageToCommits
 	{
 		private readonly Regex _eventPattern = new Regex(@"(?<=<eventXml>).*?(?=<\/eventXml>)");
