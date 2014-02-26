@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("VersionOne.CommitService.Plugin.Translator.Tfs")]
-[assembly: AssemblyDescription("TFS translator plugin implementation for VersionOne CommitService")]
+[assembly: AssemblyDescription("TFS plugin translator implementation for VersionOne CommitService")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("VersionOne, Inc.")]
 [assembly: AssemblyProduct("TFSCommitAttemptTranslator")]
