@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/TeamFoundation/2005/06/Services/Notification/03" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<soap:Header>
+		<wsa:To>http://requestb.in/rsx1bjrs</wsa:To>
+		<wsa:Action>http://schemas.microsoft.com/TeamFoundation/2005/06/Services/Notification/03/Notify</wsa:Action>
+	</soap:Header>
+	<soap:Body>
+		<Notify>
+			<eventXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;CheckinEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;AllChangesIncluded&gt;true&lt;/AllChangesIncluded&gt;&lt;Subscriber&gt;[DefaultCollection]\Project Collection Service Accounts&lt;/Subscriber&gt;&lt;CheckinNotes&gt;&lt;CheckinNote xsi:type="NameValuePair" name="Code Reviewer" val="" /&gt;&lt;CheckinNote xsi:type="NameValuePair" name="Performance Reviewer" val="" /&gt;&lt;CheckinNote xsi:type="NameValuePair" name="Security Reviewer" val="" /&gt;&lt;/CheckinNotes&gt;&lt;CheckinInformation /&gt;&lt;Artifacts&gt;&lt;Artifact xsi:type="ClientArtifact" ArtifactType="Changeset" ServerItem=""&gt;&lt;Url&gt;http://tfs201064:8080/tfs/web/cs.aspx?pcguid=774086bc-c49c-4e0d-860c-98dabdf8523f&amp;amp;cs=128&lt;/Url&gt;&lt;/Artifact&gt;&lt;Artifact xsi:type="ClientArtifact" ArtifactType="VersionedItem" Item="Program.cs" Folder="$/Hello World/HelloTFS/HelloTFS" TeamProject="Hello World" ItemRevision="128" ChangeType="edit" ServerItem="$/Hello World/HelloTFS/HelloTFS/Program.cs"&gt;&lt;Url&gt;http://tfs201064:8080/tfs/web/diff.aspx?pcguid=774086bc-c49c-4e0d-860c-98dabdf8523f&amp;amp;opath=%24%2fHello+World%2fHelloTFS%2fHelloTFS%2fProgram.cs&amp;amp;ocs=127&amp;amp;mpath=%24%2fHello+World%2fHelloTFS%2fHelloTFS%2fProgram.cs&amp;amp;mcs=128&lt;/Url&gt;&lt;/Artifact&gt;&lt;/Artifacts&gt;&lt;Owner&gt;CORP\jgough&lt;/Owner&gt;&lt;CreationDate&gt;2/11/2014 1:53:19 PM&lt;/CreationDate&gt;&lt;Comment&gt;Yep there it is AT-01069&lt;/Comment&gt;&lt;TimeZone&gt;Eastern Standard Time&lt;/TimeZone&gt;&lt;TimeZoneOffset&gt;-05:00:00&lt;/TimeZoneOffset&gt;&lt;TeamProject&gt;Hello World&lt;/TeamProject&gt;&lt;PolicyOverrideComment /&gt;&lt;PolicyFailures /&gt;&lt;Title&gt;Hello World Changeset 128: Yep there it is AT-01069&lt;/Title&gt;&lt;ContentTitle&gt;Changeset 128: Yep there it is AT-01069&lt;/ContentTitle&gt;&lt;Committer&gt;CORP\jgough&lt;/Committer&gt;&lt;Number&gt;128&lt;/Number&gt;&lt;/CheckinEvent&gt;</eventXml>
+			<tfsIdentityXml>&lt;TeamFoundationServer url="http://tfs201064:8080/tfs/DefaultCollection/Services/v3.0/LocationService.asmx" /&gt;</tfsIdentityXml>
+			<SubscriptionInfo>
+				<Classification>VersionOneTFSServer</Classification>
+				<ID>100</ID>
+				<Subscriber>S-1-9-1551374245-1204400969-2402986413-2179408616-0-0-0-0-2</Subscriber>
+			</SubscriptionInfo>
+		</Notify>
+	</soap:Body>
+</soap:Envelope>
