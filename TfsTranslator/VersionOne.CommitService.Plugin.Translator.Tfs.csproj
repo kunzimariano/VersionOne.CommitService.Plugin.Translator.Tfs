@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="VersionOne.CommitService.Core, Version=0.0.0.8, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\VersionOne.CommitService.Core.0.0.0.8\lib\net45\VersionOne.CommitService.Core.dll</HintPath>
+      <HintPath>..\packages\VersionOne.CommitService.Core.0.0.0.8\lib\net45\VersionOne.CommitService.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
